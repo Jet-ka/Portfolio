@@ -1,0 +1,104 @@
+.maincontainer{
+  display: grid;
+  height: 100vh;
+  gap:1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+
+.hope{
+  grid-column:span 3;
+}
+
+
+.about{
+ grid-column:span 3;
+ padding-left: 9px;
+ padding-right: 5px; 
+
+}
+
+
+.coures{
+   grid-column:span 3; 
+}
+.flexcontainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+.card-img-top{
+  width: 280px;
+  height: 200px;
+}
+p.one{
+  word-spacing: 2px;
+}
+p.two{
+  word-spacing: -1px;
+}
+p.three{
+  word-spacing: 1px;
+}
+
+
+
+.fees{
+  grid-column: span 3;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+tr:hover {background-color: #D6EEEE;}
+
+}
+
+
+#contact{
+   grid-column:span 3;
+   margin-left: 100px;
+  
+}
+
+
+.con{
+  display: flex;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+ text-align: center;
+
+ 
+}
+.btn{
+margin-left: 100px;
+width: 150px;
+}
+
+
+.fut{
+  grid-column: span 3;
+
+}
+
+#pad{
+  background-color: black;
+  padding-left: 100px;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  color: white;
+
+}
